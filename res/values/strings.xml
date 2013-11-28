@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">conversor-android-binding-xtend</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_conversor">Conversor (en Xtend)</string>
+    <string name="conversor_millas">Millas</string>
+    <string name="conversor_millas_hint">millas</string>
+    <string name="conversor_convertir">Convertir</string>
+    <string name="conversor_kilometros_label">kilometros</string>
+    <string name="conversor_kilometros_hint">kilometros</string>
+
+</resources>

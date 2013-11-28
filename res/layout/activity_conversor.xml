@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/conversor_millas_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:text="@string/conversor_millas" />
+
+        <EditText
+            android:id="@+id/conversor_millas"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:hint="@string/conversor_millas_hint"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/conversor_convertir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/conversor_convertir" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/conversor_kilometros_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:text="@string/conversor_kilometros_label" />
+
+        <TextView
+            android:id="@+id/conversor_kilometros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/conversor_kilometros_hint" />
+    </LinearLayout>
+
+</LinearLayout>
