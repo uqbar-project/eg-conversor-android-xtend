@@ -4,5 +4,7 @@
     <string name="app_name">Conversor millas/km</string>
     <string name="action_settings">Settings</string>
     <string name="convertir">Convertir</string>
+    <string name="title_activity_conversor_multiple">Conversor Multiple</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

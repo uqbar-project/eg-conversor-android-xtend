@@ -1,7 +1,12 @@
 package ar.edu.conversor.domain
 
 import java.math.BigDecimal
+import org.eclipse.xtend.lib.annotations.Accessors
 
+/**
+ * @author fdodino
+ */
+@Accessors
 class Conversor {
 	BigDecimal valorOrigen
 	
