@@ -33,6 +33,16 @@
             </intent-filter>
              -->
         </activity>
+        <activity 
+            android:name="com.example.conversor_android_xtend.xtendroid.ConversorXtendroid"
+            android:label="Conversor Xtendroid">
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
     </application>
 
 </manifest>
