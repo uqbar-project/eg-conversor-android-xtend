@@ -1,10 +1,12 @@
 package uqbar.model.conversor
 
+import org.eclipse.xtend.lib.annotations.Accessors
 import uqbar.android.mvc.binding.ObservableObject
 
+@Accessors
 class ConversorApplicationModel extends ObservableObject {
 	
-	@Property Conversor model
+	Conversor model
 
 	new(Conversor conversor) {
 		this.model = conversor

@@ -9,7 +9,7 @@ import uqbar.model.conversor.Events
 
 class ConversorActivity extends MainActivity {
 	
-	ConversorApplicationModel model = new ConversorApplicationModel(new Conversor())
+	ConversorApplicationModel model = new ConversorApplicationModel(new Conversor)
 	ModelBinder binder
 
 	new() {
@@ -18,7 +18,7 @@ class ConversorActivity extends MainActivity {
 	
     override void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState)
-        setContentView(R::layout.activity_conversor)
+        contentView = R.layout.activity_conversor
         
 		this.binder = new ModelBinder(this, model)
 			.property(R.id.conversor_millas, "millas") //
