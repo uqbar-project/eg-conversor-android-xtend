@@ -10,7 +10,7 @@ Este proyecto está generado para
 
 * Eclipse Kepler
 * con Xtend 2.7.2
-* para una SDK Lollypop
+* para una Android SDK 18
 
 ## Branches
 
